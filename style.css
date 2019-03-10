@@ -1,0 +1,84 @@
+/* code below applys to generic classes*/
+.section {
+    height: 100vh;
+    text-align: center;
+    color: white;
+    /* padding-top: 56px;
+    margin-bottom: 56px; */
+}
+.col-sm{
+    padding-top: 3vh;
+}
+.thumbnail img{
+    object-fit: cover;
+    height: 40vh;
+    width: 100%;
+}
+.row p{
+    padding-top: 5vh;
+    font-size: 20px;
+    text-align: justify;
+}
+
+/* everything below is for jumbotron/the first div */
+.jumbotron{
+    text-align: center;
+    color: white;
+    background-image: url("images/jumboImg.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    filter: grayscale(70);
+}
+.jumbotext{
+    background-color: rgba(0, 0, 0, 0.7)
+}
+.trial{
+    border-radius: 25px;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+#slogan{
+    font-size: 60px;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    padding-top: 5vh;
+}
+#subtext{
+    font-size: 30px;
+    padding-left: 10vh;
+    padding-right: 10vh;
+}
+#quizbtn{
+    margin-bottom: 5vh;
+    margin-top: 3vh;
+}/* everything for jumbotron ends now*/
+
+/* who are we div below */
+#div1{
+    background-color: rgb(66, 65, 65);
+    
+}/* who are we div ENDSSS */
+
+/* code donate div starts */
+#div2{
+    background-color: darkgray;
+    color: black;
+}/* code donate div ends */
+
+/* code volunteer div starts */
+#div3{
+    background-color: rgb(66, 65, 65);
+}
+#part2{
+    margin-top: -4vh;
+}
+#quote{
+    text-align: center;
+}/* code for volunteer div ends */
+
+#div4{
+    background-color: darkgray;
+    color: black;
+}
